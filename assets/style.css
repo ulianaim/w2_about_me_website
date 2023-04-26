@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Brush Script M7;
+    margin: 0;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: left;
+    background: #b79ec5;
+    color: #311753;
+  }
+  .slogan {
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+    color: #411b43;
+  }
+  nav {
+    display: flex;
+    background-color: #ddd3e1;
+  }
+  nav a {
+    color: #041f38;
+    padding: 20px 20px;
+    text-decoration: underline;
+    text-align: right; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside {
+    float: left;
+    flex: 1;
+    background-color: #a09fa3;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Add style to my picture */
+  .mypicture img {
+    display: block;
+    margin: 10px auto;
+    max-width: 350px;
+  }
+  .content {
+    width: 75%;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  /*  */
+.about-me, .portfolio, .resume  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cad2ec;
+    color: #070c32;  
+} 
+.about-me h3, .portfolio h3, .resume h3 {
+    margin-bottom: 20px;
+    font-size: 36px; 
+} 
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
